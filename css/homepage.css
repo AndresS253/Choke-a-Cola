@@ -7,3 +7,26 @@
 #my-portrait {
   width: 500px;
 }
+
+/*links (4 bottles)*/
+#bottlelinks {
+  position: relative;
+  overflow: hidden;
+}
+
+.bottle {
+  float: left;
+  width: 23%;
+  margin: 1% 1% 45px 1%;
+}
+
+.name {
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+}
+
+.bottle img{
+  width: 100%;
+  display: block;
+}

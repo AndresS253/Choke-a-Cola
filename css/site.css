@@ -1,7 +1,3 @@
-/* we can use a single css file to style all the files in our wwebsite */
-
-/* you can pick your own background colors, text colors, and fonts */
-
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #50808E;
@@ -35,6 +31,7 @@ h1 {
   background-color: #A3C9A8;
 }
 
+/* nutrition facts styling*/
 #nutritionfacts { 
   background-color:white; 
   border:1px solid black; 
@@ -95,3 +92,31 @@ h1 {
   font-family:Arial,Helvetica,sans-serif; 
 }
 
+/*links (3 bottles)*/
+#ourproducts h4{
+  text-align: center;
+  font-size: 200%;
+}
+#bottlelinks {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.bottle {
+  float: left;
+  width: 20%;
+  margin: 1% 1% 45px 1%;
+}
+
+.name {
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+}
+
+.bottle img{
+  width: 100%;
+  display: block;
+}
