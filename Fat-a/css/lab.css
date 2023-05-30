@@ -1,3 +1,5 @@
+/* nutrition facts styling */
+
 #nutritionfacts { 
   background-color:white; 
   border:1px solid black; 
@@ -48,4 +50,12 @@
 #nutritionfacts .highlighted {
   border:1px dotted grey;
   padding:2px;
+}
+#ingredients{
+  background-color:white; 
+  font-size:8pt; 
+  padding:3px; 
+  width:244px; 
+  float:left; 
+  font-family:Arial,Helvetica,sans-serif; 
 }
