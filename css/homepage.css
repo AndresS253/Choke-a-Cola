@@ -1,23 +1,72 @@
 /* this css file will only style the homepage of our site */
+#titlewrapper{
+  width: 100%;
+  height: 80vh;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#can{
+  position: absolute;
+  top: 50%;
+  left: 77%;
+  transform: translate(-50%,-50%);
+  z-index: 2; /* Makes sure this is on top */
+  animation: canslide;
+  animation-duration: 3s;
+}
 
 h1{
-  text-align: center;
-  font-size: 144pt;
+  font-size: 154pt;
   font-family: 'Coca Cola ii', sans-serif;
   color: #fff;
-  margin: 50px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1; /* Places this below the image container */
+  margin-left: -100px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% { width: 0; opacity: 0; }
+  15% { width: 0; opacity: 0; }
+  100% { width: 50%; opacity: 100%; }
+}
+
+
+@keyframes canslide {
+  from {
+    margin-left: -50%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
 
 /*links (4 bottles)*/
 #bottlelinks {
   position: relative;
-  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  animation: fade;
+  animation-duration: 3s;
 }
 
+#linktitle{
+  position: absolute;
+}
 .bottle {
   float: left;
   width: 23%;
   margin: 1% 1% 45px 1%;
+  padding-top:50px;
 }
 
 .name {
@@ -30,3 +79,10 @@ h1{
   width: 100%;
   display: block;
 }
+
+@keyframes fade {
+  0% {opacity: 0; }
+  15% {opacity: 0; }
+  100% {opacity: 100%; }
+}
+
