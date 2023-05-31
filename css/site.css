@@ -1,3 +1,18 @@
+/* nav bar*/
+.nav {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+  width: 100%;
+	top: 0;
+  background-color: rgb(187, 187, 187);
+  padding-left: 25px;
+  display: block;
+  z-index: 3;
+}
+
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #ffffff;
