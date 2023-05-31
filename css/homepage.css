@@ -55,11 +55,13 @@ h1{
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
   animation: fade;
   animation-duration: 3s;
 }
 
+#linktitle{
+  position: absolute;
+}
 .bottle {
   float: left;
   width: 23%;
