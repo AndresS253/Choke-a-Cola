@@ -6,6 +6,12 @@ h1{
     font-size: 144pt;
     font: 'Futura';
     font-style: bold;
-    color: #fff;
+    color: #db0a40;
     margin: 50px;
   }
+
+#titleblock {
+padding: 10px;
+margin-bottom: 10px;
+background-color: #ffffff;
+}

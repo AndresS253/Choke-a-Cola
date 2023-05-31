@@ -29,3 +29,9 @@ h1 {
                    0 36px 36px rgba(0,0,0,.15);
     margin: 25px;
   }
+
+#titleblock {
+padding: 10px;
+margin-bottom: 10px;
+background-color: #f78f1f;
+}
