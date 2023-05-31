@@ -1,38 +1,197 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 14 - Debugging Tools & Strategies</title>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Polluta Cola</title>
 
+	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<!-- <link rel="stylesheet" type="text/css" href="../css/site.css"> -->
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- font import -->
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/coca-cola-ii');
+        </style>
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
+
+<!-- navigation bar-->
+<nav class="nav">
+	<div class="nav__title">
+		<a href="../index.html"><img src="../img/homepage_icon.jpg" height=50px></a>
+	</div>
+</nav>
+
 <body>
+	<!-- Info/slogan -->
 	<main id="content">
 		<section>
-			<h1>Polluta Cola</h1>
-			<div class="minor-section">
-				<h2>Keeping your oceans colorful with plastic.</h2>
-				<p>No matter what you do we’ll always do “our part” to keep pollution alive.</p>
+			<div id="titleblock">
+				<h1>Polluta Cola</h1>
 			</div>
 			<div class="minor-section">
-				<h2>Random Facts About Polluta Cola.</h2>
-				<label for="random-image">Press the button for a random fact about Polluta Cola</label>
-				<div id="random-image">
-					<img src="img/bottle1.png">
-				</div>
-				<br>
-				<button id="button">Random Fact</button>
-				<div id="random-box">Click the button for a random fact about Coca Cola and the effects their plastic products' pollution's have.</div>
+				<h2>Keeping your oceans colorful with <a href="https://www.sierraclub.org/michigan/blog/2022/12/coca-cola-s-plastic-pollution-problem">plastic.</a></h2>
+				<p>No matter what you do we’ll always do “our part” to keep pollution <a href="https://www.forbes.com/sites/lanabandoim/2020/01/23/why-coca-cola-refuses-to-ban-plastic-bottles/?sh=3ca2369c327b">alive.</a></p>
 			</div>
-			<div class="minor-section">
-				<h2>Nutrition Facts</h2>
-			</div>
+		</section>
 	</main>
+
+	<div id="nutritionfacts">
+        <table width="242" cellspacing="0" cellpadding="0">
+            <tbody><tr>
+                <td align="center" class="header">Nutrition Facts</td>
+            </tr>
+            <tr>
+                <td><div class="serving">Per <span class="highlighted">180.0g</span> Serving Size</div></td>
+            </tr>
+            <tr style="height: 7px">
+                <td bgcolor="#000000"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 7pt"><div class="line">Amount Per Serving</div></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="line">
+                    <div class="label">Calories <div class="weight">230</div></div><div style="padding-top: 1px; float: right;" class="labellight">Calories from Fat <div class="weight">56</div></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><div class="line"><div class="dv">% Daily Value<sup>*</sup></div></div></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="line">
+                    <div class="label">Total Fat <div class="weight">6.2g</div></div>
+                    <div class="dv">10%</div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td class="indent">
+                    <div class="line">
+                    <div class="labellight">Saturated Fat <div class="weight">3.5g</div></div>
+                    <div class="dv">17%</div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td class="indent">
+                    <div class="line">
+                    <div class="labellight"><i>Trans</i> Fat <div class="weight">0.0g</div></div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td>
+                    <div class="line">
+                    <div class="label">Cholesterol <div class="weight">22mg</div></div>
+                    <div class="dv">7%</div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td>
+                    <div class="line">
+                    <div class="label">Sodium <div class="weight">618mg</div></div>
+                    <div class="dv">26%</div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td>
+                    <div class="line">
+                    <div class="label">Total Carbohydrates <div class="weight">32.2g</div></div>
+                    <div class="dv">11%</div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td class="indent">
+                    <div class="line">
+                    <div class="labellight">Dietary Fiber <div class="weight">5.2g</div></div>
+                    <div class="dv">21%</div>
+                </div></td>
+            </tr>
+                        <tr>
+                <td class="indent">
+                    <div class="line">
+                    <div class="labellight">Sugars <div class="weight">3.3g</div></div>
+                    </div>
+                </td>
+            </tr>
+                        <tr>
+                <td>
+                    <div class="line">
+                    <div class="label">Protein <div class="weight">11.4g</div>
+                    </div>
+                </div></td>
+            </tr>
+            <tr style="height: 7px">
+                <td bgcolor="#000000"></td>
+            </tr>
+                        <tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0" border="0" class="vitamins">
+                    <tbody>
+                    <tr>
+                        <td>Vitamin A &nbsp;&nbsp; 10%</td>
+                        <td align="center">•</td>
+                        <td align="right">Calcium &nbsp;&nbsp; 19%</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamin B &nbsp;&nbsp; 22%</td>
+                        <td align="center">•</td>
+                        <td align="right">Iron &nbsp;&nbsp; 13%</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamin C &nbsp;&nbsp; 16%</td>
+                        <td align="center">•</td>
+                        <td align="right">Potassium &nbsp;&nbsp; 7%</td>
+                    </tr>
+                    <tr>
+                        <td>Vitamin D &nbsp;&nbsp; 5%</td>
+                        <td align="center">•</td>
+                        <td align="right">Folate &nbsp;&nbsp; 40%</td>
+                    </tr>                        
+                    </tbody></table>
+                </td>
+            </tr>
+                        <tr>
+                <td><div class="line">
+                <div class="labellight">* Based on a regular <a href="#">2000 calorie diet</a>
+                <br><br><i>Nutritional details are an estimate and should only be used as a guide for approximation.</i>
+                </div>
+                </div>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+	<!-- bottle links -->
+	<div id="ourproducts">
+		<h4>Our Products</h4>
+		<div id="bottlelinks">
+            <div class="bottle">
+                <a href="../Fat-a/index.html"><img src="../img/placeholder_bottle.png" alt="Responsive image"></a>
+                <div class="name"><a href="../Fat-a/index.html">Fat-a</a></div>
+            </div>
+            <div class="bottle">
+                <a href="../PilferWater/index.html"><img src="../img/placeholder_bottle.png"></a>
+                <div class="name"><a href="../PilferWater/index.html">Pilfer Water</a></div>
+           </div>
+           <div class="bottle">
+                <a href="../Redline/index.html"><img src="../img/placeholder_bottle.png"></a>
+               <div class="name"><a href="../Redline/index.html">Redline</a></div>
+           </div>
+	    </div>
 </body>
 </html>
