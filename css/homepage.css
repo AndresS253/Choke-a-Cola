@@ -7,6 +7,13 @@
   overflow: hidden;
 }
 
+#content{
+  background-color: #e61d2b ;
+  display: block;
+  margin: auto;
+  
+}
+
 #can{
   position: absolute;
   top: 50%;
@@ -32,10 +39,18 @@ h1{
   animation: typing 3s;
 }
 
+h4{
+  font-family: 'Heebo', sans-serif;
+  font-size: 200%;
+  font-style: Bold;
+  color: #e61d2b;
+  padding: 50px;
+}
 /* The typing effect */
 @keyframes typing {
   0% { width: 0; opacity: 0; }
   15% { width: 0; opacity: 0; }
+  90% { width: 50%; opacity: 100%; }
   100% { width: 50%; opacity: 100%; }
 }
 
@@ -66,7 +81,7 @@ h1{
   float: left;
   width: 23%;
   margin: 1% 1% 45px 1%;
-  padding-top:50px;
+  padding-top:8%;
 }
 
 .name {

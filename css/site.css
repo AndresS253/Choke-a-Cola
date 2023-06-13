@@ -7,8 +7,9 @@
 	height: 60px;
   width: 100%;
 	top: 0;
-  background-color: #e61d2b;
+  background-color: #fff;
   padding-left: 25px;
+  padding-top: 10px;
   display: block;
   z-index: 3;
 }
@@ -16,8 +17,14 @@
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #ffffff;
+  font-family: 'Heebo', sans-serif;
 }
 
+/* links */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: sans-serif;
