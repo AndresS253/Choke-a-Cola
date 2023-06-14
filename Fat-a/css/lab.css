@@ -35,7 +35,22 @@ padding: 10px;
 margin-bottom: 10px;
 background-color: #f78f1f;
 }
+.nutritionbody {
+  margin: 1rem;
+  padding: 2rem 15rem;
+  text-align: center;
+}
 
+.child {
+  display: inline-block;
+  padding: 1rem 10rem;
+  vertical-align: middle;
+}
+
+#nutritionfacts{
+  align-self: left;
+  margin-left: 15rem;
+}
 #content {
   margin: 10px;
   padding: 10px;
@@ -50,4 +65,10 @@ background-color: #f78f1f;
 }
 main{
   color: white;
+  text-align: center; 
+}
+
+h2{
+  size:300%;
+  color:#1947ba;
 }
