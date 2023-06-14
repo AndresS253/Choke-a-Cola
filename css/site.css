@@ -1,17 +1,16 @@
 /* nav bar*/
 .nav {
 	position: sticky;
-	display: flex;
+	display: block;
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
   width: 100%;
 	top: 0;
   background-color: #fff;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
-  display: block;
   z-index: 3;
 }
 
@@ -22,10 +21,12 @@ body {
 }
 
 /* links */
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link { text-decoration: none; 
+color: black;}
+a:visited { text-decoration: none; 
+color: black;}
+a:hover { text-decoration: none;
+  color: #e61d2b; }
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: sans-serif;
@@ -126,6 +127,7 @@ h1 {
   overflow: hidden;
   display: flex;
   justify-content: center;
+  font-size: 125%;
 }
 
 .bottle {
@@ -143,5 +145,6 @@ h1 {
 .bottle img{
   width: 100%;
   display: block;
+  padding-bottom: 15px;
 }
 
