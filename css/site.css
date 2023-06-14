@@ -8,8 +8,9 @@
   width: 100%;
 	top: 0;
   background-color: #fff;
-  padding-left: 25px;
-  padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: block;
   z-index: 3;
 }
