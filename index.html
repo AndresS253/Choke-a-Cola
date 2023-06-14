@@ -18,11 +18,15 @@
         @import url('https://fonts.cdnfonts.com/css/coca-cola-ii');
 		@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Rubik&display=swap');
         </style>
+	<!--Imports a model-viewer JavaScript code -->
+    <!--It helps to handle how the 3D Object would be displayed -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 
 <nav class="nav">
 	<div class="nav__title">
-		<a href="index.html"><img src="img/homepage_icon.jpg" height=50px></a>
+		<ul><li><a href="index.html">Home</a></li><ul>
 	</div>
 </nav>
 
@@ -30,7 +34,10 @@
 	<main id="content">
 		<div id="titlewrapper">
 			<div id="can">
-				<img src="img/can_placeholder.jpg">
+				<model-viewer texture="assets/choke_a_cola_img0.png" src="assets/choke_a_cola.glb" auto-rotate camera-controls ar ios-src="assets/choke_a_cola.glb" >
+					<option value="assets/choke_a_cola_img0.png"></option>
+				</model-viewer>
+				
 			</div>
 			<div id="title">
 				<img src="img/homelogo.png">

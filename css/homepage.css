@@ -30,6 +30,10 @@
   animation: canslide;
   animation-duration: 3s;
 }
+#can model-viewer {
+  height: 600px;
+  width: 600px;
+}
 
 #title {
   overflow: hidden;
