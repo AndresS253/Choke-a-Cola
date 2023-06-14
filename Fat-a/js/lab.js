@@ -2,17 +2,9 @@
 // Author: Edward Oh
 // Date: 5/23/2023
 
-console.log("fuck you");
+console.log("clicked");
 
 var presser = document.getElementById("button");
-
-presser.addEventListener("mouseover", function() {
-    document.getElementById("random-image").innerHTML = '<img src="img/bottle2.png">';
-})
-
-presser.addEventListener("mouseout", function() {
-    document.getElementById("random-image").innerHTML = '<img src="img/bottle1.png">';
-})
 
 function random1to5() {
   return Math.floor(Math.random() * 5);
@@ -25,6 +17,5 @@ var infoarray = ["The average child drinks over 500 cans of soda a year.",
 "Research suggests that children who consume soda tend to have slightly higher scores on measures of aggression than do children who do not drink soda beverages.", "Soda is often high in empty calories and sugar, which may contribute to childhood obesity and increase the risk of type 2 diabetes."];
 
 presser.addEventListener("click", function() {
-    document.getElementById("random-image").innerHTML = '<img src="img/bottle3.png">';
     document.getElementById("random-box").innerHTML = infoarray[random1to5()];
 })

@@ -12,5 +12,41 @@ h1{
 #titleblock {
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #e61d2b;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e0a8f8489c56f0aacb10641/1579304518676-UEBAPU4OVUMM4NOOACPO/Hnet.com-image+%281%29.gif?format=2500w);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  background-position-x: 0px;
+  background-position-y: center;
   }
+
+#content{
+  background-color: white;
+}
+.minor-section{
+  background-color: white;
+  text-align: center;
+}
+
+h2{
+  font-size: 200%;
+}
+
+.nutritionbody {
+  margin: 1rem;
+  padding: 2rem 15rem;
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 10rem;
+  vertical-align: middle;
+}
+
+#nutritionfacts{
+  scale: 1.5;
+  align-self: left;
+  margin-left: 15rem;
+}

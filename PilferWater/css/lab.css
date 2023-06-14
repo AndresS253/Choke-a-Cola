@@ -1,9 +1,27 @@
+.nav,ul,li {
+  background-color: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  overflow: hidden;
+  color: white;
+  font-size: 100%;
+}
+/* links */
+a:link { text-decoration: none; 
+color: white;}
+a:visited { text-decoration: none; 
+color: white;}
+a:hover { text-decoration: none;
+  color: blue; }
 h1{
   position: relative;
   z-index: 3;
     text-align: center;
     font-size: 144pt;
-    font-family: 'Quicksand';
+    font-family: 'Outfit', sans-serif;
     color: #fff;
     margin: 50px;
   }
@@ -14,7 +32,35 @@ h1{
   z-index: 2;
 padding: 10px;
 margin-bottom: 10px;
-background-color: #acd0ff;
+background-color: none;
+}
+
+h3{
+  color: #d1d1d1;
+}
+.minor-section{
+  text-align: center;
+  background:rgba(66, 67, 95, 0.5);
+}
+.nutritionbody {
+  margin: 1rem;
+  padding: 2rem 15rem;
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 10rem;
+  vertical-align: middle;
+}
+
+#nutritionfacts{
+  scale: 1.5;
+  align-self: left;
+  margin-left: 15rem;
+}
+#content{
+  background:rgba(66, 67, 95, 0.5);
 }
 div.drop-container {
   position: relative;

@@ -30,11 +30,19 @@ h1 {
     margin: 25px;
   }
 
+/* links */
+a:link { text-decoration: none; 
+  color: #1947ba;}
+  a:visited { text-decoration: none; 
+  color: #1947ba;}
+  a:hover { text-decoration: none;
+    color: gray; }
 #titleblock {
 padding: 10px;
 margin-bottom: 10px;
-background-color: #f78f1f;
+background-color: none;
 }
+
 .nutritionbody {
   margin: 1rem;
   padding: 2rem 15rem;
@@ -48,6 +56,7 @@ background-color: #f78f1f;
 }
 
 #nutritionfacts{
+  scale: 1.5;
   align-self: left;
   margin-left: 15rem;
 }
@@ -55,13 +64,14 @@ background-color: #f78f1f;
   margin: 10px;
   padding: 10px;
   background-color:  #f78f1f;
+  background-image: url(https://cdn.dribbble.com/users/230520/screenshots/2905507/media/d010d6f7d9d6a3ce9de4f88aba7dd891.gif);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  background-color:  #f78f1f;
+  background:rgb(255, 145, 0, 0.5);
 }
 main{
   color: white;
@@ -71,4 +81,16 @@ main{
 h2{
   size:300%;
   color:#1947ba;
+}
+
+#ourproducts{
+  background-color: white;
+  padding: 25px;
+}
+
+h3, #random-box{
+  font-size: 110%;
+}
+h4{
+  color: #f78f1f  ;
 }

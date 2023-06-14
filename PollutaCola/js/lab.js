@@ -5,13 +5,6 @@
 
 var presser = document.getElementById("button");
 
-presser.addEventListener("mouseover", function() {
-    document.getElementById("random-image").innerHTML = '<img src="img/bottle2.png">';
-})
-
-presser.addEventListener("mouseout", function() {
-    document.getElementById("random-image").innerHTML = '<img src="img/bottle1.png">';
-})
 
 function random1to5() {
   return Math.floor(Math.random() * 5);
@@ -24,6 +17,5 @@ var infoarray = ["The Coca-Cola company, despite their efforts to appear otherwi
 "Coca-Cola, along with Nestlé and PepsiCo, are the top plastic polluters according to a report from Break Free From Plastic. Effects of plastic can have negative environmental ramifications, such as being left in the ocean as hazards for aquatic and marine life, and being left in terrestrial areas where they take an extremely long time to decompose, if they can even decompose at all."];
 
 presser.addEventListener("click", function() {
-    document.getElementById("random-image").innerHTML = '<img src="img/bottle3.png">';
     document.getElementById("random-box").innerHTML = infoarray[random1to5()];
 })

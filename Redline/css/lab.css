@@ -16,23 +16,38 @@ margin-bottom: 10px;
 background-color: #ffffff;
 }
 
-.minor-section {
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 1360px;
-  background-color: #858585;
+#content{
+  background-color: white;
 }
 
 body {
   background-color: #000000;
 }
 
+.nutritionbody {
+  margin: 1rem;
+  padding: 2rem 15rem;
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 10rem;
+  vertical-align: middle;
+}
+
+#nutritionfacts{
+  scale: 1.5;
+  align-self: left;
+  margin-left: 15rem;
+}
+
 a,
 a:visited,
 a:active,
 h1,
-h3, 
+h3,
+#linktitle, 
 p {
   color: #d70000;
   text-decoration: none;
@@ -53,7 +68,6 @@ strong {
 }
 
 .intro-block {
-	height: 100vh;
   width: 100vw;
   text-align: center;
   padding-top: 20px;
@@ -66,6 +80,8 @@ strong {
   border-radius: 5px;
   background-color: #0b0e13;
   margin: 0 auto;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .intro-block svg {
