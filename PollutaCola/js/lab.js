@@ -2,7 +2,6 @@
 // Author: Edward Oh
 // Date: 5/23/2023
 
-console.log("fuck you");
 
 var presser = document.getElementById("button");
 
