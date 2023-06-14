@@ -35,3 +35,19 @@ padding: 10px;
 margin-bottom: 10px;
 background-color: #f78f1f;
 }
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  background-color:  #f78f1f;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:  #f78f1f;
+}
+main{
+  color: white;
+}
