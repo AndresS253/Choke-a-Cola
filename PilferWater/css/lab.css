@@ -40,7 +40,12 @@ div.drop {
   background: deepskyblue;
   animation: drip 4s forwards;
 }
-
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
 
 div.drop-container:before,
 div.drop-container:after {
@@ -75,7 +80,12 @@ div.drop-container:after {
     opacity:0;
   }
 }
-
+h4{
+  color: white;
+}
+.bottle .name a{
+  color:white
+}
 @keyframes dripple {
   0% {
     width: 150px;
@@ -89,5 +99,25 @@ div.drop-container:after {
     height: 500px;
     top: -20%;
     opacity: 0;
+  }
+}
+#background-video {
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover; 
+   position: fixed; 
+   left: 0; 
+   right: 0;
+   top: 0;
+   bottom: 0;
+    z-index: -1;
+  }
+  @media (max-width: 750px) {
+  #background-video { 
+    display: none; 
+  } 
+  body {
+    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+    background-size: cover;
   }
 }
